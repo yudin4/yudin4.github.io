@@ -1,0 +1,121 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: url(about.gif);
+}
+h1{
+    text-align: center;
+    color: #ad5555;
+    text-shadow: black;
+    margin-top: 15%;
+}
+.kontak{
+    /* made by Rahmadina */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+}
+.kontakbtn{
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background: #f5d3d1;
+    margin: 10px;
+    border-radius: 30%;
+    box-shadow: 0 5px 15px -5px #00000070;
+    overflow: hidden;
+    position: relative;
+}
+.kontakbtn p{
+    font: lighter;
+    font-size: 8px;
+    margin-top: 0px;
+    color: purple;
+    opacity: 0;
+    letter-spacing: 0px;
+    transition: 0.3s linear;
+    align-self: center;
+}
+.kontakbtn:hover p{
+    max-height: 5px;
+    color: purple;
+    opacity: 1;
+}
+.kontakbtn img{
+    margin-top: 25px;
+    line-height: 90px;
+    font-size: 50px;
+    transition: 0.2s linear;
+}
+.kontakbtn:hover img{
+    transform: scale(1.3);
+}
+.kontakbtn::before{
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    transform: rotate(45deg);
+    left: -110%;
+    top: 90%;
+}
+.kontakbtn:hover::before{
+    animation: aaa 0.7s 1;
+    top: -10%;
+    left: -10%;
+}
+@keyframes aaa {
+    0%{
+        left: -110%;
+        top:90%
+    }
+    50%{
+        left: 10%;
+        top: -30%;
+    }
+    100%{
+        top: -10%;
+        left: -10%;
+    }
+    
+}
+
+.contactbtn{
+    position: absolute;
+    top: 65%;
+    left: 45%;
+    transform: translate(0%, 0%);
+}
+button{
+    margin: 25px;
+    background: #ffd9e0;
+    color: #b80303;
+    width: 75px;
+    height: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12.5px;
+    border-color: tomato;
+    font-weight: 200;
+    border-radius:100px;
+    letter-spacing: 1px;
+    transition: 1s;
+}
+button:hover{
+    cursor: pointer;
+    box-shadow: 0 2px 50px 0 tomato, 0 20px 100px tomato;
+    transition: 3s;    
+    animation: ab;
+}
+@keyframes ab {
+    0%{
+        opacity: 0%;
+    }
+    50%{
+        opacity: 50%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}

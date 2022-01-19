@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(about.gif);
+}
+.about{/* made by Rahmadina */
+    width: 750px;
+    background: rgba(255, 222, 230, 0.4);
+    text-align: center;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: rgb(192, 93, 93);
+    font-family: sans-serif;
+}
+video{
+    margin-top: 20px;
+    margin-bottom: 3px;
+    border-width: 5px;
+    align-content: flex-end;
+    border-style:ridge;
+    border-color: rgb(235, 213, 209);
+}
+.about-img{
+    padding-top: 25px;
+    border-radius: 50%;
+    animation: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.about h1{
+    margin-top: 0px;
+    color: #bd0945;
+    font-size: 38px;
+    font-family: segoe script; 
+    font-weight: bold;
+    font-style: initial;
+    margin-bottom: 0px;
+}
+.about h2{
+    margin-top: 0px;
+    color: #bd0945;
+    font-size:  20px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+.about p{
+    margin-left: 55px;
+    width: 650px;
+    color: #833a52;
+    text-justify: inter-cluster;
+    text-align: center;
+    font-size: 12px;
+    font-family: UD Digi Kyokasho N-R;
+    letter-spacing: 0.5px;
+    font-weight: bolder;
+}
+.aboutbtn{
+    transform: translate(0%, 0%);
+    padding-bottom: 5%;
+}
+button{
+    margin-top: 25px;
+    background: #ffd9e0;
+    color: #b80303;
+    width: 75px;
+    height: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12.5px;
+    border-color: tomato;
+    font-weight: 200;
+    border-radius:100px;
+    letter-spacing: 1px;
+    transition: 1s;
+}
+button:hover{
+    cursor: pointer;
+    box-shadow: 0 2px 50px 0 tomato, 0 20px 100px tomato;
+    transition: 3s;    
+    animation: ab;
+}
+@keyframes ab {
+    0%{
+        opacity: 0%;
+    }
+    50%{
+        opacity: 50%;
+    }
+    100%{
+        opacity: 100%;
+    }
+    
+}
