@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin-bottom: 60;
+}
+h2{
+    color: rgb(0, 0, 0);
+    font-family: segoe script; 
+    font-size: 35pt;
+    margin-top: 0.5cm;
+    margin-bottom: 1cm;
+}
+
+body{
+    background: #ebebeb;
+    margin: 0;
+    padding-bottom: 1cm;
+}
+
+form{
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+label{
+    font-size: 95%;font-family: UD Digi Kyokasho N-R;
+}
+form-control{
+    font-size: 95%;
+}
+img{
+    margin-bottom: 5%;
+}
