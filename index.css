@@ -1,0 +1,46 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.topbar{
+    margin-top: -7px;
+    margin-left: -7px;
+    margin-right: -7px;
+    position: fixed;
+    transition: top 0.3s;
+    width: 100%;
+    font-family: UD Digi Kyokasho N-R;
+    font-size: larger;
+    overflow: hidden;
+    background-color: #202627;
+}
+.topbar a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topbar a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+.h{
+    text-align: center;
+}
+h1{
+    font-family: Segoe Print;
+    font-size: 30pt;
+    margin-top: gi5cm;
+}
+p{
+    margin-top: -7mm;
+}
