@@ -27,10 +27,22 @@
     color: white;
   }
 
-h1{
-    font-family: Segoe Print;
-    font-size: 50pt;
+.ava{
+    width: 3cm;
+    height: 4cm;
+    border-radius: 5%;
 }
-.h{
-    text-align: center;
+table{
+    width: 15cm;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    color: #f2f2f2;
+    border-radius: 2%;
+    background-color: black;
+    font-family: UD Digi Kyokasho N-R;
+    font-weight: lighter;
+}
+td{
+    border-spacing: 30px;
 }
